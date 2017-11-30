@@ -21,10 +21,9 @@ public class Diamond {
             for (int k = 0; k < j; k++)
                 System.out.print("*");
             System.out.println("");
-            if(i==n-1)
-            {
-                while(j>=1) {
-                    j=j-2;
+            if (i == n - 1) {
+                while (j >= 1) {
+                    j = j - 2;
                     for (int k = 0; k < j; k++)
                         System.out.print("*");
 
@@ -32,11 +31,16 @@ public class Diamond {
                 }
 
             }
-
+        }
             System.out.println("Printing name Diamond:");
             for(int i=0,j=1;i<n;i++,j=j+2) {
+                if(i==n-1)
+                    System.out.print("bharath");
+                else
+                {
                 for (int k = 0; k < j; k++)
                     System.out.print("*");
+                }
                 System.out.println("");
                 if(i==n-1)
                 {
