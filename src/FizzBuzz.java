@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FizzBuzz {
 
-    public static void main(String[] args)
+    public void run()
     {
         int n;
         Scanner in = new Scanner(System.in);
